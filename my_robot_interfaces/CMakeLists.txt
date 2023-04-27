@@ -15,7 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 set(msg_files
-  msg/EulerAngle.msg
+  msg/Mymessage.msg
 )
 
 if(BUILD_TESTING)
@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/EulerAngle.msg"
+  "msg/Mymessage.msg"
 )
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
