@@ -15,7 +15,7 @@ find_package(rosidl_default_generators REQUIRED)
 
 
 set(msg_files
-  msg/Mymessage.msg
+  msg/Rcmsg.msg
 )
 
 if(BUILD_TESTING)
@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/Mymessage.msg"
+  "msg/Rcmsg.msg"
 )
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
