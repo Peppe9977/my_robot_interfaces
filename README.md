@@ -9,4 +9,6 @@ ros_joystick[4] -> remote controller shooter trigger [-660; 660]
 ros_switches[0] -> right switch
 ros_switches[1] -> left switch
 
+ros_shoot_freq -> shoot frequency (Hz)
+
 
